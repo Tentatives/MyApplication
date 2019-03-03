@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_myip"
+            android:icon="@drawable/ic_myip"
+            android:title="My Ip" />
+        <item
+            android:id="@+id/nav_ping"
+            android:icon="@drawable/ic_ping"
+            android:title="Ping" />
+        <item android:id="@+id/nav_command"
+            android:icon="@drawable/ic_command"
+            android:title="Commands" />
+
+    </group>
+
+
+</menu>
